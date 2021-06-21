@@ -1,4 +1,4 @@
-import { startWorkers } from './snippets/wasm-bindgen-rayon-258f06ee9665d26e/src/workerHelpers.no-bundler.js';
+import { startWorkers } from './snippets/wasm-bindgen-rayon-7afa899f36665473/src/workerHelpers.no-bundler.js';
 
 let wasm;
 
@@ -270,7 +270,7 @@ async function init(input, maybe_memory) {
         var ret = wasm.__wbindgen_export_0;
         return addHeapObject(ret);
     };
-    imports.wbg.__wbg_static_accessor_URL_741ff90c3e88b3d1 = function() {
+    imports.wbg.__wbg_static_accessor_URL_b24f10c24510da94 = function() {
         var ret = import.meta.url;
         return addHeapObject(ret);
     };
@@ -278,7 +278,7 @@ async function init(input, maybe_memory) {
         var ret = getObject(arg0);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbg_startWorkers_f29bf7cf5f5d9e44 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbg_startWorkers_3e6644f7fc0ac450 = function(arg0, arg1, arg2) {
         var ret = startWorkers(takeObject(arg0), takeObject(arg1), wbg_rayon_PoolBuilder.__wrap(arg2));
         return addHeapObject(ret);
     };
